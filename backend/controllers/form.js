@@ -6,7 +6,7 @@ exports.contactForm = (req, res) => {
     console.log(req.body);
 
     console.log(process.env.EMAIL_TO);
-    
+
 
     const emailData = {
         to: process.env.EMAIL_TO,
@@ -49,7 +49,7 @@ exports.contactBlogAuthorForm = (req, res) => {
             <p>Message: ${message}</p>
             <hr />
             <p>This email may contain sensetive information</p>
-            <p>https://seoblog.com</p>
+            <p></p>
         `
     };
 
